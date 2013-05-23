@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/berbec"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Bebec 21 mar. - 20 apr."
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:layout_weight="0.09"
+        android:text="           Nu sunteti in forma si nu va simtiti instare sa terminati o lucrare importanta. Va recomandam sa nu va asumati noi responsabilitati, pentru ca riscati sa va irositi energia.In partea a doua a zilei sunteti invitat la o petrecere, unde unde va simtiti excelent alaturi de partenerul de viata si de prietenii apropiati."
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+</LinearLayout>

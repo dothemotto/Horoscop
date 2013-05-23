@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/capricorn"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Capricorn 21 dec. - 19 ian."
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:text="          Astazi nu este recomandabil sa va asumati noi responsabilitati la locul de munca. Amanati deciziile importante si pastrati-va calmul in discutiile cu colegii! Situatia financiara este destul de buna, dar simtul practic este redus si va poate crea probleme in afaceri."
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+</LinearLayout>

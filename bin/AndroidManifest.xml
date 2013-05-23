@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ciuby.horoscop"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ciuby.horoscop.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Varsator"/>
+        <activity android:name=".Pesti"/>
+        <activity android:name=".Balanta"/>
+         <activity android:name=".Berbec"/>
+         <activity android:name=".Capricorn"/>
+         <activity android:name=".Fecioara"/>
+         <activity android:name=".Gemeni"/>
+         <activity android:name=".Leu"/>
+          <activity android:name=".Rac"/>
+          <activity android:name=".Sagetator"/>
+          <activity android:name=".Scorpion"/>
+           <activity android:name=".Taur"/>
+         
+    </application>
+
+</manifest>

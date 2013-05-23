@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sagetator"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sagetator 22 noi. - 20 dec."
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:text="        Nu este o zi buna pentru investitii sau pentru afaceri. In cursul diminetii primiti o veste de la o ruda apropiata, care va schimba planurile in legatura cu o calatorie. Va sfatuim sa evitati activitatile care necesita atentie si putere de concentrare."
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+</LinearLayout>

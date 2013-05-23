@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fecioara"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Fecioara 23 aug.- 21 sep."
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:text="          Ar fi bine sa nu va faceti un program strict, pentru ca veti fi nevoit sa-l schimbati de cateva ori pe parcursul zilei. Faceti mai multe drumuri scurte in interesul familiei. Este o zi favorabila rezolvarii unor probleme financiare. Puteti sa va bazati pe intuitie."
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+</LinearLayout>

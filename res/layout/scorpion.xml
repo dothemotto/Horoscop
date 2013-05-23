@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scorpion"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Scorpion 23 oct. - 21 noi."
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:text="        In prima parte a zilei nu va reuseste mai nimic si simtiti ca va irositi energia. Prietenii si familia va inteleg si va ajuta. Va sfatuim sa fiti prudent si sa nu refuzati ajutorul pe care vi-l ofera o persoana mai in varsta din familie."
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+</LinearLayout>
